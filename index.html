@@ -11,7 +11,7 @@
 <body>
   <header>
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="./images/logo.png" alt="" ">
@@ -22,16 +22,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#backpack">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link" href="#subscribe">Subscribe</a>
             </li>
             
           </ul>
@@ -39,7 +39,7 @@
       </div>
     </nav>
     <!-- hero section -->
-    <section class="container py-5">
+    <section id="home" class="container py-5">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner rounded-2">
           <div class="carousel-item active">
@@ -132,7 +132,7 @@
 
 <!-- card section -->
 <!-- shoes -->
-<section class="container my-5">
+<section id="shoes" class="container my-5">
   <h1>Shoes</h1>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
@@ -178,7 +178,7 @@
 </section>
 
 <!-- Bag section -->
-<section class="container my-5">
+<section id="backpack" class="container my-5">
   <h1>Backpack</h1>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
@@ -224,7 +224,8 @@
 </section>
 
 <!-- Subscribe section -->
-<section style="height: 300px;" class="container my-5 d-flex justify-content-center align-items-center rounded-3 bg-info bg-gradient">
+<section id="subscribe" style="height: 300px;"
+  class="container my-5 d-flex justify-content-center align-items-center rounded-3 bg-info bg-gradient">
 <div>
   <h1>LET'S STAY IN TOUCH</h1>
 <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, excepturi. Lorem ipsum dolor sit.</P>
